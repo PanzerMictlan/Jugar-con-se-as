@@ -1,0 +1,130 @@
+/**** TITULO*****/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika:700,300,600');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-image: url('fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1 {
+    color: transparent;
+    position: relative;
+    transform: translate(-38%, 70%);
+    left: 70%;
+    top: 20%;
+    font-family: "Poppins", sans-serif;
+    font-size: 100px;
+    letter-spacing: 0.05em;
+    background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%, rgb(0, 255, 255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: slide 30s linear infinite forwards;
+}
+
+@keyframes slide {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 600vw;
+    }
+}
+
+.titulo {
+    height: 150px;
+    width: 100%;
+    opacity: 100%;
+    font-size: 175%;
+}
+
+
+/***boton****/
+
+button {
+    cursor: pointer;
+    background: linear-gradient(#F6A9A9, #F6A9A9);
+    padding: 20px;
+    border-radius: 50px;
+    border: white 5px solid;
+    font-size: 120%;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+
+/**** fondo *****/
+
+body {
+    background: white;
+    background-image: url("fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#videobox {
+    width: 575px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #318ee6;
+    margin: 0 auto;
+    /* Fondo VideoBox */
+    border: 2px solid #5A5A5A;
+    padding: 10px;
+    -moz-box-shadow: 0px 0px 30px #E3E3E3;
+    -webkit-box-shadow: 0px 0px 30px #E3E3E3;
+    box-shadow: 0px 0px 30px #E3E3E3;
+}
+
+.mini {
+    width: 800px;
+    height: 700px;
+    /* Fondo miniatura */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 73px;
+    width: 100px;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.mini:hover {
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    height: 130px;
+}
+
+.button {
+    cursor: pointer;
+    background: linear-gradient(#F6A9A9, #F6A9A9);
+    padding: 40px;
+    border-radius: 50px;
+    border: rgb(15, 224, 231) 5px solid;
+    font-size: 120%;
+    justify-content: center;
+    user-select: none;
+    text-align: center;
+}

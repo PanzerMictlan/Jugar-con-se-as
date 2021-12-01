@@ -1,0 +1,148 @@
+        /**** TITULO*****/
+        
+        @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Signika:700,300,600');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            background-image: url('fondo.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow-x: hidden
+        }
+        
+        body h1 {
+            color: transparent;
+            position: relative;
+            transform: translate(-38%, 70%);
+            font-family: "Poppins", sans-serif;
+            font-size: 80px;
+            letter-spacing: 0.05em;
+            background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%, rgb(0, 255, 255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+            background-size: 600vw 600vw;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            animation: slide 30s linear infinite forwards;
+            left: 70%;
+        }
+        
+        @keyframes slide {
+            0% {
+                background-position-x: 0%;
+            }
+            100% {
+                background-position-x: 600vw;
+            }
+        }
+        
+        .titulo {
+            height: 150px;
+            width: 100%;
+            opacity: 100%;
+            font-size: 175%;
+        }
+        /*PREGUNTAS **/
+        
+        * {
+            transition: all 0.3s;
+        }
+        
+        .contenedor {
+            width: 500px;
+            height: 1000px;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 30%;
+        }
+        
+        .opcion {
+            background: rgb(252, 122, 252) 42.84%;
+            min-width: 500px;
+            width: 15%;
+            max-width: 800px;
+            height: 300px;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .encabezado {
+            background: rgb(252, 122, 252) 42.84%;
+            min-width: 500px;
+            width: 50%;
+            max-width: 400px;
+            padding: 50px;
+        }
+        
+        .categoria {
+            opacity: 0.3;
+            text-align: left;
+        }
+        
+        .pregunta {
+            padding: 10px;
+        }
+        
+        .imagen {
+            object-fit: cover;
+            height: 250px;
+            width: 2000px;
+        }
+        
+        .btn {
+            background: #f6faf5;
+            color: black;
+            width: 60%;
+            max-width: 550px;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 30px;
+            text-align: center;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .numero {
+            position: absolute;
+            opacity: 0.3;
+            top: 10px;
+            right: 10px;
+        }
+        
+        .puntaje {
+            padding: 10px;
+            color: rgb(0, 0, 0);
+            left: 40%;
+            position: relative;
+        }
+        /* Flecha */
+        /*
+.flecha {
+    
+    
+}
+*/
+        
+        #altavoz {
+            margin-top: 1%;
+            position: relative;
+            left: 2%;
+            width: 4%;
+        }
