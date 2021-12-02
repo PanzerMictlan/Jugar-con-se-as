@@ -1,0 +1,120 @@
+        /**** TITULO*****/
+        
+        @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Signika:700,300,600');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            min-height: 100%;
+            background-image: url('img/fondo.png');
+            background-repeat: space repeat;
+            background-size: cover;
+            overflow-x: hidden
+        }
+        
+        body h1 {
+            color: transparent;
+            position: absolute;
+            transform: translate(-38%, 70%);
+            left: 45%;
+            top: 20%;
+            font-family: "Poppins", sans-serif;
+            font-size: 100px;
+            letter-spacing: 0.05em;
+            background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%, rgb(0, 255, 255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+            background-size: 600vw 600vw;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            animation: slide 30s linear infinite forwards;
+        }
+        
+        @keyframes slide {
+            0% {
+                background-position-x: 0%;
+            }
+            100% {
+                background-position-x: 600vw;
+            }
+        }
+        
+        .titulo {
+            height: 150px;
+            width: 100%;
+            opacity: 100%;
+            font-size: 175%;
+        }
+        /******Columnas****/
+        
+        main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-gap: 200px;
+            position: relative;
+            height: 150px;
+            width: 150px;
+            top: 5px;
+            left: 20%;
+            cursor: pointer
+        }
+        
+        .draggable-list {
+            padding: 50px;
+            object-fit: cover;
+            font-size: 20px;
+        }
+        
+        li {
+            list-style: none;
+            padding: 5px;
+            margin: 5px;
+            background-color: #FFBF86;
+            border: 10px solid #F6A9A9;
+            color: #000000;
+            cursor: grab;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
+        .over {
+            background-color: #FFF47D;
+        }
+        /***boton****/
+        
+        button {
+            cursor: pointer;
+            background: linear-gradient(#F6A9A9, #F6A9A9);
+            padding: 40px;
+            border-radius: 50px;
+            border: rgb(15, 224, 231) 5px solid;
+            font-size: 120%;
+            justify-content: center;
+            position: relative;
+            left: -2%;
+        }
+        
+        #endMessage {
+            display: none;
+            position: relative;
+            left: 35%;
+        }
+        /***altavoz****/
+        
+        #altavoz {
+            margin-top: 1%;
+            position: relative;
+            left: 2%;
+            width: 4%;
+        }

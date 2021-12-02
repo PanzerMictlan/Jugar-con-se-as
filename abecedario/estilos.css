@@ -1,0 +1,26 @@
+#videobox {
+    width: 675px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #a4fd15;
+    margin: 0 auto;
+    /* Fondo VideoBox */
+    border: 2px solid #5A5A5A;
+    padding: 10px;
+    -moz-box-shadow: 0px 0px 30px #E3E3E3;
+    -webkit-box-shadow: 0px 0px 30px #E3E3E3;
+    box-shadow: 0px 0px 30px #E3E3E3;
+}
+
+.button {
+    cursor: pointer;
+    background: linear-gradient(#F6A9A9, #F6A9A9);
+    padding: 40px;
+    border-radius: 50px;
+    font-size: 120%;
+    justify-content: center;
+    user-select: none;
+    text-align: center;
+    border: rgb(15, 224, 231) 5px solid;
+}
