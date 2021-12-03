@@ -14,7 +14,7 @@ body {
     align-content: center;
     flex-wrap: wrap;
     min-height: 100%;
-    background-image: url('fondo.png');
+    background-image: url('fono.png');
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
