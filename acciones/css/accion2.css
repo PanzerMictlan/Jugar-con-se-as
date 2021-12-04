@@ -2,9 +2,9 @@
   
   #juego {
       border: 5px solid rgb(31, 24, 4);
-      padding: 10px;
+      padding: 0% 8.5%;
       float: left;
-      margin: 10px 270px 10px 270px;
+      margin: -8% 2px 5px 272px;
       justify-content: center;
       background: rgb(255, 235, 59);
       position: relative;
@@ -19,8 +19,8 @@
   /* style for each square in the puzzle */
   
   #juego .puzzleSquare {
-      height: 30px;
-      width: 48px;
+      height: 35px;
+      width: 35px;
       text-transform: uppercase;
       background-color: rgb(236, 243, 243);
       border: 0;
@@ -53,7 +53,8 @@
       background-position: 50% 100%;
   }
   /* indicates that all words have been found */
-  
+
+
   #juego .complete {
       background-color: rgb(19, 19, 18);
       justify-content: center;
@@ -137,41 +138,11 @@
       flex-wrap: wrap;
       min-height: 30vh;
       background-image: url('fondo.png');
-      background-repeat: no-repeat;
+      background-repeat: repeat;
       background-size: cover;
       overflow-x: hidden;
   }
   
-  body h1 {
-      color: transparent;
-      position: relative;
-      transform: translate(-38%, 70%);
-      font-family: "Poppins", sans-serif;
-      font-size: 80px;
-      letter-spacing: 0.05em;
-      background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%, rgb(0, 255, 255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-      background-size: 600vw 600vw;
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      animation: slide 30s linear infinite forwards;
-      left: 55%;
-  }
-  
-  @keyframes slide {
-      0% {
-          background-position-x: 0%;
-      }
-      100% {
-          background-position-x: 600vw;
-      }
-  }
-  
-  .titulo {
-      height: 150px;
-      width: 100%;
-      opacity: 100%;
-      font-size: 175%;
-  }
   /***altavoz****/
   
   #altavoz {
