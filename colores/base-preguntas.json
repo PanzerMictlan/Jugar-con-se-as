@@ -32,16 +32,6 @@
     {
         "categoria": "Colores",
         "pregunta": "Que color se muestra",
-        "respuesta": "Gris",
-        "incorrecta1": "Naranja",
-        "incorrecta2": "Rojo",
-        "incorrecta3": "Amarillo\r",
-        "imagen": "img de colores/gris.png",
-        "objectFit": "cover"
-    },
-    {
-        "categoria": "Colores",
-        "pregunta": "Que color se muestra",
         "respuesta": "Morado",
         "incorrecta1": "Rosa",
         "incorrecta2": "Azul",

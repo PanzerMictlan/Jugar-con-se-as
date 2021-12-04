@@ -51,7 +51,7 @@ function escogerPregunta(n) {
     desordenarRespuestas(pregunta)
     if (pregunta.imagen) {
         select_id("imagen").setAttribute("src", pregunta.imagen)
-        style("imagen").height = "100%"
+        style("imagen").height = "64%"
         style("imagen").width = "100%"
     } else {
         style("imagen").height = "0px"
@@ -106,7 +106,7 @@ function oprimir_btn(i) {
 
 function reiniciar() {
     for (const btn of btn_correspondiente) {
-        btn.style.background = "#F6A9A9"
+        btn.style.background = "#00ffd5"
     }
     escogerPreguntaAleatoria()
 }
